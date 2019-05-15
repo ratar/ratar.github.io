@@ -16,6 +16,13 @@ body {
 	padding-bottom: 1%;
 	}
 
+.header img{
+	width:70px; 
+	height: 70px; 
+	float: left; 
+	margin: 8px 0px 0px 2px;
+}
+
 .alister {
 	color: white;
 	font-family: Trebuchet MS;
@@ -52,6 +59,23 @@ body {
 
 }
 
+.title{
+	font-family: pristina; 
+	text-align: center; 
+	font-size: 150%; 
+	color: #EC1414; 
+	background-color: #1D1A1A; 
+	border-radius: 0 100px 0 100px;
+	margin-left:2%;
+	margin-right: 2%;
+	margin-top: 5px; 
+	padding: 5px;
+}
+
+.nav {
+	margin-top: -10px;
+}
+
 .nav ul{
 	list-style-type: none;
 	margin: auto;
@@ -77,4 +101,134 @@ body {
 .nav li a:hover{
 	color: white;
 	background-color: #2E2E31;
+}
+
+.naw {
+	width: 100%;
+	max-width: 95%;
+	margin: auto;
+	font-size: 150%;
+	background-color: #35711A;
+	border-radius: 50px;
+	border: 4px solid #154D06;
+}
+
+.naw h1{
+	font-family: constantia;
+	color: white; 
+	padding:15px 15px 15px 15px;
+	line-height: 150%;
+	text-align: center;
+	}
+
+.mySlides {display: none;}
+
+.sldshw {
+	max-width:98%; 
+	border: 4px solid #333333; 
+	border-radius: 20px;
+	overflow: hidden;
+	margin: auto;
+}
+
+.features {
+	width: 100%;
+	max-width: 95%;
+	margin: auto; 
+	font-size: 80%; 
+	background-color: #133990;
+	border-radius: 50px;
+	border: 4px solid #071F55;
+}
+
+.features h1{
+	font-family: ink free;
+	padding:15px 15px 15px 25px;
+	color: white; 
+	line-height: 150%; 
+	text-align: left; 
+	list-style-type:square;
+}
+
+.notis {
+	width: 97%;  
+	background-color: #A6A4F7;
+	overflow: auto; 
+	margin-left: 1%;  
+	border-radius: 15px;
+	padding-bottom: 15px;
+}
+
+.notis h3{
+	font-family: candara; 
+	font-size: 200%; 
+	padding: 15px 25px 10px 25px;
+	letter-spacing: 2px;
+}
+
+.notis p{
+	font-family: candara; 
+	font-size: 130%; 
+	padding: 0px 10px 0 15px;
+}
+
+.notis span{
+	font-size: 30px;
+}
+
+.notis em{
+	color: red;
+}
+
+.hline{
+	border: solid 1.5px #66666A;
+	margin-top: 12px;
+}
+.p1 {
+	margin-top: 8px;
+	margin-bottom: 5px;
+	padding: 0px 10px 0px 15px;
+}
+
+.bfont{
+	font-family: candara light;
+	margin-left:2%;
+	margin-right:2%;
+	text-indent: 75px;
+	font-size: 100%;		   
+}
+
+.sf{
+	color: #AC1B1B; 
+	font-family: tahoma;
+}
+
+.qot{
+	width: 97%; 
+	margin: auto;
+	font-family: Perpetua;
+	padding: 15px 5px;
+	text-align: center; 
+	background-color: #F45757; 
+	color: white; 
+	font-size: 80%; 
+	border-radius: 15px;
+}
+
+.blogo{
+	width: 100%;
+	height: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	max-width: 96%;
+
+}
+
+.footer{
+	height: 40px;
+	color: white;
+	background-color: #242121;
+	text-align: center;
+	padding-top: 13px;
+	font-size: 80%;
 }
