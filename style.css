@@ -65,7 +65,7 @@ body {
 	font-size: 150%; 
 	color: #EC1414; 
 	background-color: #1D1A1A; 
-	border-radius: 0 100px 0 100px;
+	border-radius: 30px 100px 30px 100px;
 	margin-left:2%;
 	margin-right: 2%;
 	margin-top: 5px; 
@@ -194,7 +194,7 @@ body {
 
 .bfont{
 	font-family: candara light;
-	margin-left:4%;
+	margin-left:2%;
 	margin-right:2%;
 	text-indent: 75px;
 	font-size: 120%;		   
@@ -233,8 +233,10 @@ body {
 	color: white;
 	background-color: #242121;
 	text-align: center;
+	letter-spacing: 2px;
 	padding-top: 13px;
 	font-size: 80%;
+
 }
 
 /* ABOUT page CSS */
@@ -256,6 +258,8 @@ body {
 	font-family: Cambria;
 }
 
+/*COURSES page CSS*/
+
 .cors{
 	margin-top: 1.5%;
 	margin-left: 2%;
@@ -270,4 +274,134 @@ body {
   	margin-left: 1.3%;
   	margin-right: 1%;
   	border: solid 2px #FB3543;
+}
+
+.egst{
+	background-color: #E3E7AA;
+	padding: 10px;
+	border-left: 4px solid #9C7407;
+	font-size: 110%;
+	border-radius: 0 15px 15px 0;
+	margin-left: 2.5%;
+	font-family: Trebuchet MS;
+			
+}
+
+.twbxl{
+	float: left; 
+	width: calc(300px+3vw);  
+	border-radius: 60px 0px 60px 0px;
+	margin: 4% 15% 0 3%; 
+	font-family: calibri;
+	max-width: 450px;
+}
+
+.twbxr{
+	float: right;
+	width: calc(300px+3vw);  
+	border-radius: 60px 0px 60px 0px;
+	margin: 4% 3% 0 15%; 
+	font-family: calibri;
+	max-width: 450px;
+}
+
+.twt{
+	padding: 20px 20px 15px 25px; 
+	color: white; 
+	font-size: 110%;
+}
+
+/*ACTIVITIES page CSS*/
+
+.yt{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 5vw;
+	max-width: 480px; 
+}
+
+/*ALUMNI page CSS*/
+
+.alu {
+	border: 3px solid #164CD4;
+	margin-left: auto;
+	margin-right: auto;
+	height: 119px;
+	width: 280px;
+	background-color: #B8D8D7;
+	overflow: auto;
+	margin-top: 2%;
+	font-family: Corbel;
+	line-height: 150%;	
+	margin-bottom: 5%;
+}
+
+.alname{
+	font-size: 150%; 
+	padding-top: 3%;
+}
+
+.alpic{
+	margin: 6.5px 6px;
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+/*CONNECT page CSS*/
+
+.cnct{
+	color: #302F2F; 
+	font-family: Trebuchet MS; 
+	text-align: center; 
+	margin: 50px 15%; 
+	font-size: 7vw;
+}
+
+.icoY {
+	text-decoration: none;
+	margin-left: 12vw;
+	float: left;
+}
+
+.icoF {
+	text-decoration: none;
+	margin-right: 12vw;
+	float: right;
+}
+
+/*CONTACT page CSS*/
+
+.adrs{
+	font-size: 120%; 
+	margin: 0px 0px 0px 7vw; 
+	font-family: candara;
+}
+
+.phn{
+	margin: 0px 0px 0px 7vw; 
+	font-family: tahoma;
+}
+
+.flfr{
+	font-size: 90%; 
+	margin-left: 8vw; 
+	margin-top: 10px;
+}
+
+.map{
+	margin: 4% 2%; 
+	width: 96%; 
+	max-width: 758px; 
+	height: auto; 
+	border: 1vw dashed #F0D173;
+}
+
+.dmap{
+	margin: 1% 2%; 
+	width: 96%; 
+	max-width: 922px; 
+	height: auto;
+	border: 1vw dashed #7973F0;
 }
