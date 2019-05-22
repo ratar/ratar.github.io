@@ -304,64 +304,66 @@ a{
 
 .twbxl{
 	float: left; 
-	width: calc(300px+3vw);  
-	border-radius: 60px 0px 60px 0px;
+	width: calc(300px+3vw); /*calc(300px+3vw)*/  
+	border-radius: 15vw 0; /*60px 0px 60px 0px*/
 	margin: 4% 15% 0 3%; 
 	font-family: calibri;
-	max-width: 450px;
+	max-width: 112.5vw; /*450px*/
 }
 
 .twbxr{
 	float: right;
 	width: calc(300px+3vw);  
-	border-radius: 60px 0px 60px 0px;
+	border-radius: 15vw 0; /*60px 0px 60px 0px*/
 	margin: 4% 3% 0 15%; 
 	font-family: calibri;
-	max-width: 450px;
+	max-width: 112.5vw; /*450px*/
 }
 
 .twt{
-	padding: 20px 20px 15px 25px; 
+	padding: 5vw 5vw 3.75vw 6.25vw; /*20px 20px 15px 25px*/
 	color: white; 
-	font-size: 110%;
+	font-size: 4.4vw; /*110%*/
 }
 
 /*ACTIVITIES page CSS*/
 
 .yt{
+	width: 77.5vw; 
+	height: 40.25vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	margin-bottom: 5vw;
-	max-width: 480px; 
-}
+	margin-bottom: 5vw; 
+	}
 
 /*ALUMNI page CSS*/
 
 .alu {
-	border: 3px solid #164CD4;
+	border: 0.75vw solid #164CD4; /*3px*/
 	margin-left: auto;
 	margin-right: auto;
-	height: 119px;
-	width: 280px;
+	height: 29.75vw; /*119px*/
+	width: 70vw; /*280px*/
 	background-color: #B8D8D7;
 	overflow: auto;
 	margin-top: 2%;
 	font-family: Corbel;
-	line-height: 150%;	
+	line-height: 150%; /*150%*/	
 	margin-bottom: 5%;
+	font-size: 4vw;
 }
 
 .alname{
-	font-size: 150%; 
+	font-size: 6vw;  /*150%*/
 	padding-top: 3%;
-}
+} 
 
 .alpic{
-	margin: 6.5px 6px;
+	margin: 1.625vw 1.5vw; /*6.5px 6px*/
 	float: left;
-	height: 100px;
-	width: 100px;
+	height: 25vw; /*100px*/
+	width: 25vw; /*100px*/
 }
 
 /*CONNECT page CSS*/
@@ -370,51 +372,64 @@ a{
 	color: #302F2F; 
 	font-family: Trebuchet MS; 
 	text-align: center; 
-	margin: 50px 15%; 
+	margin: 12.5vw; 
+	font-size: 6vw;
+}
+
+.cnct span{
 	font-size: 7vw;
 }
 
 .icoY {
+	margin-left: 20%;
 	text-decoration: none;
-	margin-left: 12vw;
-	float: left;
-}
+	}
 
 .icoF {
-	text-decoration: none;
-	margin-right: 12vw;
-	float: right;
+	margin-left: 10%;
+	text-decoration: none;	
 }
 
+.icoY img{
+	width: 25vw; /* 100px */
+	height: 25vw; /* 100px */
+}
+
+.icoF img{
+	width: 25vw; /* 100px */
+	height: 25vw; /* 100px */
+
+}
 /*CONTACT page CSS*/
 
 .adrs{
-	font-size: 120%; 
+	font-size: 4.8vw; /*120%*/ 
 	margin: 0px 0px 0px 7vw; 
 	font-family: candara;
 }
 
 .adrs span{
 	color: #F53232; 
-	font-size: 120%;
+	font-size: 4.8vw; /*120%*/
 }
 
 .phn{
 	margin: 0px 0px 0px 7vw; 
+	font-size: 4vw;
 	font-family: tahoma;
-	line-height: 22px;
+	line-height: 5.5vw; /*22px*/
 }
 
 .phn span{
 	color: #F53232; 
-	font-size: 140%; 
+	font-size: 5.6vw; /*140%*/
 	font-family: candara;
 }
 
 .flfr{
-	font-size: 90%; 
+	font-size: 3.6vw; /*90%*/ 
 	margin-left: 8vw; 
-	margin-top: 10px;
+	margin-top: 2.5vw; /*10px*/
 }
 
 .map{
@@ -423,6 +438,14 @@ a{
 	max-width: 758px; 
 	height: auto; 
 	border: 1vw dashed #F0D173;
+}
+
+.sdv{
+	/*margin-left: 43%;*/
+	text-align: center; 
+	font-size: 4vw; /*120%*/
+	font-family: candara; 
+	color: #8B1FD6;
 }
 
 .dmap{
