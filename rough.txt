@@ -1,0 +1,124 @@
+<for rough>
+
+
+		  <img class="mySlides" src="images/as1.jpg" style="width:100%">
+		  <img class="mySlides" src="images/as2.jpg" style="width:100%">
+
+		    img {
+    	pointer-events: none;
+		}
+
+		onContextMenu="return false;"
+
+	.anticopy{
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;	
+		}
+
+		#example.com/page will display the contents of example.com/page.html
+		RewriteCond %{REQUEST_FILENAME} !-f
+		RewriteCond %{REQUEST_FILENAME} !-d
+		RewriteCond %{REQUEST_FILENAME}.html -f
+		RewriteRule ^(.+)$ $1.html [L,QSA]
+
+		#301 from example.com/page.html to example.com/page
+		RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
+		RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+
+
+
+
+/* for COMPUTER screens*/ /*This code will run when screen size is  equal or less 750px*/
+
+@media only screen and (max-width: 749px) {
+	h1.hideX{
+		display: none;
+	}
+}
+
+/* for COMPUTER screens*/ /*This code will run when screen size is  equal or above 750px*/
+
+@media only screen and (min-width: 750px) {
+
+	body{
+		background-color: tomato;
+	}
+
+	h1.hide{
+		display: none;
+	}
+
+	.header{
+	height: auto;
+	width: 100%;
+	background-color: #242121;
+	overflow: hidden;
+	}
+
+	.alister{
+	float: left; 
+	font-family: Trebuchet MS; 
+	font-size: 6.72vw;
+	margin: 0px 0px 0px 1.3vw;
+	padding: 0px;
+	color: white;
+	}
+
+	.header img{
+	width: 6.6vw; 
+	height: 6.6vw; 
+	float: left; 
+	margin: 0.66vw 0px 0px 0.99vw;
+	}
+
+	.engX{
+	float: left; 
+	font-family: Trebuchet MS; 
+	font-size: 2.93vw;
+	margin: 1vw 0px 0px 2vw;
+	padding: 0px;
+	color: white;
+	letter-spacing: 0.61vw;
+	}
+
+	.acdmyX{
+	float: left; 
+	color: white;
+	font-family: Trebuchet MS; 
+	letter-spacing: 0.32vw;
+	font-size: 2.93vw;
+	margin: 3.6vw 0px 0px -15.72vw;
+	padding: 0px;
+}
+
+	.no1{
+	font-family: consolas;
+	float: right;
+	margin: 6.3vw 0.1vw 0px 0px;
+	font-size: 1.3vw;
+	letter-spacing: 0.2vw;
+	color: white;
+	}
+
+.title{
+	font-family: pristina; 
+	text-align: center; 
+	font-size: 4.45vw; 
+	margin: auto; 
+	color: #FFFEFE; 
+	background-color: #D11433; 
+	border-radius: 30px 100px 30px 100px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 1%; 
+	padding: 5px;
+	}
+
+
+
+}
