@@ -234,8 +234,6 @@ a{
 	margin: auto;
 	margin-left: 2%;
 	margin-right: 2%;
-	max-width: 750px;
-
 }
 
 .footer{
@@ -299,6 +297,7 @@ a{
 	border-radius: 0 3.75vw 3.75vw 0; /*0 15px 15px 0*/
 	margin-left: 2.5%;
 	font-family: Trebuchet MS;
+	width: 65.5vw;
 			
 }
 
@@ -366,6 +365,12 @@ a{
 	width: 25vw; /*100px*/
 }
 
+.almore{
+	padding:10vw 0; 
+	text-align: center; 
+	font-size: 6vw;
+}
+
 /*CONNECT page CSS*/
 
 .cnct{
@@ -400,6 +405,7 @@ a{
 	height: 25vw; /* 100px */
 
 }
+
 /*CONTACT page CSS*/
 
 .adrs{
